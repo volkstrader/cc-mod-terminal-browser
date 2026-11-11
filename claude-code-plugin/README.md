@@ -34,10 +34,10 @@ Enable claude code UI plugins by adding this to `~/.claude/settings.json`:
 Install the terminal-browser plugin
 ```
 # set the marketplace
-claude plugin marketplace add zenbu-labs/terminal-browser
+claude plugin marketplace add volkstrader/cc-mod-terminal-browser
 
 # install the plugin
-claude plugin install terminal-browser@terminal-browser
+claude plugin install terminal-browser@volkstrader-terminal-browser
 ```
 
 Now you can run "/browser" inside claude code to open the browser
@@ -46,7 +46,7 @@ Now you can run "/browser" inside claude code to open the browser
 
 Update the claude code plugin
 ```
-claude plugin update terminal-browser@terminal-browser
+claude plugin update terminal-browser@volkstrader-terminal-browser
 ```
 
 Update terminal-browser
@@ -61,7 +61,7 @@ You can configure the terminal-browser plugin to include a tool that claude can 
 ```json
 {
   "pluginConfigs": {
-    "terminal-browser@terminal-browser": {
+    "terminal-browser@volkstrader-terminal-browser": {
       "options": {
         "agentTool": true
       }

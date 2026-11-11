@@ -1,14 +1,19 @@
 {
-  "name": "terminal-browser",
-  "owner": { "name": "zenbu-labs" },
-  "metadata": { "description": "terminal-browser plugins for Claude Code" },
+  "name": "volkstrader-terminal-browser",
+  "owner": {
+    "name": "volkstrader",
+    "url": "https://github.com/volkstrader"
+  },
+  "metadata": {
+    "description": "volkstrader fork of zenbu-labs/terminal-browser (MIT)"
+  },
   "plugins": [
     {
       "name": "terminal-browser",
       "source": "./claude-code-plugin",
       "description": "A browser running directly inside claude code. Preview websites, view HTML documents, and let your agent control the built in browser.",
-      "homepage": "https://github.com/zenbu-labs/terminal-browser",
-      "repository": "https://github.com/zenbu-labs/terminal-browser",
+      "homepage": "https://github.com/volkstrader/cc-mod-terminal-browser",
+      "repository": "https://github.com/volkstrader/cc-mod-terminal-browser",
       "license": "MIT"
     }
   ]

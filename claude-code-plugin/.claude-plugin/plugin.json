@@ -5,8 +5,8 @@
   "author": {
     "name": "zenbu-labs"
   },
-  "homepage": "https://github.com/zenbu-labs/terminal-browser/tree/main/claude-code-plugin",
-  "repository": "https://github.com/zenbu-labs/terminal-browser",
+  "homepage": "https://github.com/volkstrader/cc-mod-terminal-browser/tree/main/claude-code-plugin",
+  "repository": "https://github.com/volkstrader/cc-mod-terminal-browser",
   "license": "MIT",
   "keywords": [
     "browser",
